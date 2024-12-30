@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: "images.pexels.com",
         pathname: "/**", // Allow all paths
       },
+      {
+        protocol: "https",
+        hostname: "www.artmajeur.com",
+        pathname: "/**", // Allow all paths
+      },
     ],
   },
 };
